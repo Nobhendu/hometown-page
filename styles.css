@@ -1,0 +1,80 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+:root {
+    --whitec: #F1FAEE;
+    --blackc: #1D3557;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+
+#hero {
+    background-image: url("images/bangalore.webp");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    width: 50%;
+    border: 3px solid var(--blackc);
+    border-radius: 50px;
+    color: var(--whitec);
+    padding: 15px 35px;
+    text-shadow: 0 0 5px var(--blackc);
+}
+
+#blr-name {
+    background-color: #fdda24;
+}
+
+#blr-desc {
+    margin-top: 30px;
+    background-color: #ef3340;
+}
+
+#act-list img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#act-list p {
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#activities {
+    padding: 20px 20px 40px 20px;
+    background: linear-gradient(#abd3d4, #577f97);
+    color: #0b3855;
+}
+
+#act-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.act-loc {
+    border: 5px solid #306282;
+    border-radius: 70px;
+    width: 27%;
+    padding: 20px;
+}
